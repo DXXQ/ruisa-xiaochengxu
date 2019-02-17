@@ -1,0 +1,23 @@
+<!--pages/user/user.wxml-->
+<view class="panel">
+  <image class="panel-pic" mode="aspectFill">
+  </image>
+  <image class="avatar-icon" src="{{avatarUrl}}"></image>
+  <view class="nickName">{{userInfo.nickName}}</view>
+</view>
+  
+  <view class="menu-list-item">
+    <image src="/img/jilu.png" class="menu-list-icon"></image>
+    <view class="menu-list-text">记录</view>
+     <view class="menu-comment"> <navigator url="../parking_record/parking_record">查看消费记录</navigator></view>
+      <image class="menu-arrow-right" src="/img/arrowright.png"></image>
+      </view>
+       <view class="menu-list-item">
+    <image src="/img/jishi.png" class="menu-list-icon"></image>
+    <view class="menu-list-text">计时计费</view>
+     <view class="menu-comment" bindtap='bindViewTap'>详情
+    </view>
+      <image class="menu-arrow-right" src="/img/arrowright.png"></image>   
+</view>
+<view class="menu-list-container center">
+</view>

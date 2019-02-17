@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/navigation/user",
+    "pages/parking_record/parking_record",
+    "pages/navigation/navigation_car/navigation_car",
+    "pages/jishi/jishi",
+    "pages/navigation/navigation",
+    "pages/thePay/thePay",
+    "pages/thePay/thePayOver",
+    "pages/thePay/theDelayPayOver",
+    "pages/inputtips/input",
+    "pages/logs/logs",
+    "pages/navigation/navigation_car_detail/navigation_car_detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00A7F3",
+    "navigationBarTitleText": "一键找车位",
+    "navigationBarTextStyle": "#000"
+  }
+}
